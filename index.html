@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <script src="script.js" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<div id="container">
+    <form id="sign-up"  novalidate>
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul id="features">
+          <span><img src="./assets/images/icon-success.svg" alt="Success icon" /><li>Product discovery and building what matters</li></span>
+          <span><img src="./assets/images/icon-success.svg" alt="Success icon" /><li>Measuring to ensure updates are a success</li></span>
+          <span><img src="./assets/images/icon-success.svg" alt="Success icon" /><li>And much more!</li></span>
+      </ul>
+      <div id="email-container">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="email@company.com" required   />
+          <span id="email-error" class="error" aria-live="polite">Email is required!</span>
+      </div>
+      <button type="submit" id="subscribe" ><a href="success.html"> Subscribe to monthly newsletter</a></button>
+  </form>
+  <img src="./assets/images/illustration-sign-up-desktop.svg" alt="List icon" id="photo"/>
+</div>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  
+
+  <!-- Success message end -->
+  
+</body>
+</html>
